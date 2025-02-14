@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const audio = new Audio("audio3.mp3");
+    const audio = new Audio("https://github.com/Fitruscus/MT/raw/refs/heads/main/audio3.mp3");
     audio.loop = true; 
     audio.play().catch(() => {
       console.warn("Reproducción automática bloqueada. El usuario debe interactuar primero.");
